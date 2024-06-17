@@ -52,6 +52,7 @@ function QtyButton({
     >
       <button
         type="button"
+        aria-label="b1"
         className={`${classes.buttonBase} ${className}`}
         onClick={id ? handleDec : onDec}
       >
@@ -60,6 +61,7 @@ function QtyButton({
       <p className={`text-lg font-semibold ${className}`}>{quantity}</p>
       <button
         type="button"
+        aria-label="b2"
         className={`${classes.buttonBase}  ${className}`}
         onClick={id ? handleInc : onInc}
       >

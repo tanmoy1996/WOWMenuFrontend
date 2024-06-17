@@ -3,6 +3,7 @@ import { GiPlainCircle } from "react-icons/gi";
 export default function Switch({ value, onClick }) {
   return (
     <button
+      aria-label="b4"
       type="button"
       className="relative w-10 h-5 mx-1 rounded-full bg-gray-500/30"
       onClick={onClick}

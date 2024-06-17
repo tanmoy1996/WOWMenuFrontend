@@ -83,6 +83,7 @@ function DashboardSideBar() {
   return (
     <div className="fixed z-50 flex flex-col items-center w-24 h-screen py-8 bg-white dark:bg-gray-900 gap-y-4">
       <button
+        aria-label="b3"
         type="button"
         className="p-2 bg-opacity-20 rounded-xl bg-primary "
       >

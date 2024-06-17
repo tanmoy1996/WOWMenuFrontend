@@ -110,7 +110,7 @@ export default function UsersList() {
                         <td className="px-6 py-4">
                           {val.isAdmin ? "Yes" : "No"}
                         </td>
-                        <td className="px-6 py-4">
+                        <td aria-labelledby="js_1" className="px-6 py-4">
                           <div className="flex text-primary justify-left">
                             <span // eslint-disable-line
                               onClick={() =>
