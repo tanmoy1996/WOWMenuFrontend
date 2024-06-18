@@ -105,7 +105,7 @@ export default function QRCode() {
                     value={`${
                       process.env.NODE_ENV === "development"
                         ? "http://localhost:3000/"
-                        : "https://wow-menu.netlify.app/"
+                        : "https://wowmenu.netlify.app/"
                     }${url}`}
                     size={128}
                     level="L"
@@ -116,7 +116,7 @@ export default function QRCode() {
                   href={`${
                     process.env.NODE_ENV === "development"
                       ? "http://localhost:3000/"
-                      : "https://wow-menu.netlify.app/"
+                      : "https://wowmenu.netlify.app/"
                   }${url}`}
                   target="_blank"
                   rel="noreferrer"
@@ -125,7 +125,7 @@ export default function QRCode() {
                   <p className="mt-2 text-xs text-center break-all">{`${
                     process.env.NODE_ENV === "development"
                       ? "http://localhost:3000/"
-                      : "https://wow-menu.netlify.app/"
+                      : "https://wowmenu.netlify.app/"
                   }${url}`}</p>
                 </a>
                 <p className="mt-2 mb-5 text-lg font-medium text-center text-light-text1 dark:text-dark-text1">{`Table ${
