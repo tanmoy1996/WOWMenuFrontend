@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setOrder } from "../store/reducers/orderReducer";
 
-const socket = io.connect(process.env.REACT_APP_BASE_URL);
+const socket = io.connect('https://wowmenubackend.onrender.com/');
 export default function CustomerSocket() {
   const dispatch = useDispatch();
   const orders = useSelector((state) => state.order);

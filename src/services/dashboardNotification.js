@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
 
-const socket = io.connect(process.env.REACT_APP_BASE_URL);
+const socket = io.connect('https://wowmenubackend.onrender.com/');
 export default function DashboardNotification() {
   const restaurantId = useSelector((state) => state.restaurant.details.id);
 

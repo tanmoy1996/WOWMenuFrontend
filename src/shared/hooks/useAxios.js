@@ -7,7 +7,7 @@ import { useDispatch } from "react-redux";
 import useDarkMode from "./useDarkMode";
 import { logout } from "../../store/reducers/authReducer";
 
-axios.defaults.baseURL = `${process.env.REACT_APP_BASE_URL}api/`;
+axios.defaults.baseURL = `${'https://wowmenubackend.onrender.com/'}api/`;
 
 const useAxios = ({ url = null, method = null, headers = null } = {}) => {
   const [darkMode] = useDarkMode();
